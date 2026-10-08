@@ -6,22 +6,40 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/mohvijayjn/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Open%20to-AI%2FML%20Internships-22C55E?style=flat-square"/>
-<img src="https://img.shields.io/badge/Based%20in-India-0EA5E9?style=flat-square"/>
+<a href="https://www.linkedin.com/in/mohvijayjn/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/></a>&nbsp;
+<a href="mailto:mohvijayjain12@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/></a>&nbsp;
+<a href="https://github.com/mohvijayjain"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20AI%2FML%20INTERNSHIPS-22C55E?style=for-the-badge&labelColor=0F172A"/>
+<img src="https://img.shields.io/badge/BASED%20IN-INDIA-0EA5E9?style=for-the-badge&labelColor=0F172A"/>
+<img src="https://img.shields.io/badge/AWS-CERTIFIED-FF9900?style=for-the-badge&labelColor=0F172A"/>
 
 </div>
 
 <br/>
 
 ```python
+from dataclasses import dataclass, field
+
+
+@dataclass
 class Mohvijay:
-    role      = "AI/ML Engineer | B.Tech CSE (Data Science) @ Bennett University"
-    builds    = ["RAG systems", "LLM applications", "MLOps pipelines"]
-    cares_about = ["grounded answers", "measurable quality", "systems that ship"]
-    learning  = ["LangGraph", "multi-agent workflows"]
-    open_to   = "AI/ML and GenAI internships"
+    role:       str  = "AI/ML Engineer"
+    education:  str  = "B.Tech CSE (Data Science) @ Bennett University"
+    builds:     list = field(default_factory=lambda: ["RAG systems", "LLM apps", "MLOps pipelines"])
+    principles: list = field(default_factory=lambda: ["grounded answers", "measurable quality", "ship it"])
+
+    def currently_learning(self) -> list:
+        return ["LangGraph", "multi-agent workflows"]
+
+    def open_to(self) -> str:
+        return "AI/ML & GenAI internships 🚀"
+
+
+me = Mohvijay()
+print(me.open_to())  # AI/ML & GenAI internships 🚀
 ```
 
 ---
@@ -114,14 +132,17 @@ Land cover classification and road network analysis across 5 Indian states from 
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohvijayjain&bg_color=0D1117&color=38BDF8&line=1E3A8A&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true"/>
-
 <br/>
 
-**Building something with LLMs or MLOps? Let's talk.**
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&pause=1500&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+something+with+LLMs+or+MLOps%3F;Let's+build+it+together."/>
 
-<a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/Say%20hi-mohvijayjain12%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E3A8A,100:0F172A&height=110&section=footer"/>
+<a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/EMAIL%20ME-mohvijayjain12%40gmail.com-EA4335?style=for-the-badge&labelColor=0F172A"/></a>
+<a href="https://www.linkedin.com/in/mohvijayjn/"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-0A66C2?style=for-the-badge&labelColor=0F172A"/></a>
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E3A8A,100:0F172A&height=150&section=footer&text=Thanks%20for%20stopping%20by&fontSize=26&fontColor=ffffff&fontAlignY=72&animation=twinkling"/>
 
 </div>
