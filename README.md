@@ -1,171 +1,127 @@
-# 👋 Hi, I'm
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:4F46E5,30:6D28D9,60:7C3AED,100:9333EA&text=Mohvijay%20Jain&fontColor=ffffff&fontSize=48&fontAlignY=38&animation=fadeIn&desc=AI%2FML%20Engineer%20%7C%20RAG%20%26%20MLOps&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,50:1E3A8A,100:0EA5E9&text=Mohvijay%20Jain&fontColor=ffffff&fontSize=52&fontAlignY=36&animation=fadeIn&desc=I%20build%20AI%20systems%20that%20monitor%2C%20explain%2C%20and%20fix%20themselves&descSize=17&descAlignY=58"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=850&lines=Building+End-to-End+AI+Systems;RAG+%7C+LLMs+%7C+MLOps;Self-Healing+ML+Pipelines;Python+%7C+FastAPI+%7C+Docker+%7C+MLflow"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=RAG+systems+with+0.85+faithfulness;Self-healing+ML+pipelines;LLM+apps+grounded+in+real+data;Shipping+end-to-end%2C+not+just+notebooks"/>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/mohvijayjn/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Open%20to-AI%2FML%20Internships-22C55E?style=flat-square"/>
+<img src="https://img.shields.io/badge/Based%20in-India-0EA5E9?style=flat-square"/>
 
 </div>
 
-<div align="center">
+<br/>
 
-<a href="https://github.com/mohvijayjain"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/mohvijayjn/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-
-</div>
-
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=mohvijayjain&style=for-the-badge&color=6D28D9)
-![](https://img.shields.io/github/followers/mohvijayjain?style=for-the-badge&color=7C3AED)
-![](https://img.shields.io/github/stars/mohvijayjain?style=for-the-badge&color=8B5CF6)
-
-</div>
+```python
+class Mohvijay:
+    role      = "AI/ML Engineer | B.Tech CSE (Data Science) @ Bennett University"
+    builds    = ["RAG systems", "LLM applications", "MLOps pipelines"]
+    cares_about = ["grounded answers", "measurable quality", "systems that ship"]
+    learning  = ["LangGraph", "multi-agent workflows"]
+    open_to   = "AI/ML and GenAI internships"
+```
 
 ---
 
-## 💫 About Me
+## 🛡️ Featured: Sentinel-AI
 
-**AI/ML Engineer** and **B.Tech Computer Science (Data Science)** student at **Bennett University**. I build end-to-end AI systems: LLM-powered RAG assistants, document ingestion pipelines, and ML platforms that monitor and fix themselves in production.
+**A self-healing ML platform.** It watches a production model, figures out whether incoming data drift actually hurts predictions, retrains only when it matters, and uses an LLM to explain every decision in plain English.
 
-My main interests are **Generative AI**, **RAG systems**, **MLOps**, and **LLM evaluation**. I care about systems that are grounded, measurable, and actually deployable, not just notebooks.
+```mermaid
+flowchart LR
+    A[Production data] --> B[Drift detection<br/>PSI, KS, Jensen-Shannon]
+    B --> C{SHAP: does drift<br/>hurt predictions?}
+    C -- No --> D[Monitor in Grafana]
+    C -- Yes --> E[Prefect retrains<br/>challenger model]
+    E --> F{Quality gates}
+    F -- Pass --> G[Promote via MLflow]
+    F -- Fail --> H[Keep champion]
+    D --> I[RAG assistant on Nemotron<br/>explains what happened]
+    G --> I
+    H --> I
+```
 
-### 🔭 Open To
+<table>
+<tr>
+<td align="center"><b>6.9M+</b><br/><sub>records</sub></td>
+<td align="center"><b>R² ≈ 0.86</b><br/><sub>trip duration model</sub></td>
+<td align="center"><b>MAE ≈ 3.3 min</b><br/><sub>prediction error</sub></td>
+<td align="center"><b>3</b><br/><sub>drift tests combined</sub></td>
+</tr>
+</table>
 
-* AI/ML Engineering Internships
-* GenAI and LLM Application Roles
-* MLOps and Data Engineering Projects
-* Open Source Collaboration
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/> <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/> <img src="https://img.shields.io/badge/Prefect-070E10?style=flat-square&logo=prefect&logoColor=white"/> <img src="https://img.shields.io/badge/Evidently%20AI-4F46E5?style=flat-square"/> <img src="https://img.shields.io/badge/NVIDIA%20Nemotron-76B900?style=flat-square&logo=nvidia&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
----
-
-# 🚀 Featured Projects
-
-<div align="center">
-
-| Project | What it does | Highlights |
-|:---|:---|:---|
-| 🛡️ **[Sentinel-AI](https://github.com/mohvijayjain/Sentinel-AI)** | Self-healing ML platform: detects drift, explains it, retrains and promotes models automatically | 6.9M+ records · R² ≈ 0.86 · RAG assistant on NVIDIA Nemotron |
-| 📚 **[ScholarRAG](https://github.com/mohvijayjain/ScholarRAG)** | Grounded Q&A over research papers with citations and a hallucination guard | 0.85 faithfulness · 1.0 context recall (RAGAS) |
-| 🛰️ **[GeoSight](https://github.com/mohvijayjain/GeoSight)** | Land cover classification and road network analysis from satellite imagery | 66,000+ tiles · 97.79% pixel accuracy · mIoU 0.9154 |
-
-</div>
-
----
-
-# 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,c" />
-</p>
-
-### AI / ML
-
-<p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAGAS-6D28D9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SHAP-8B5CF6?style=for-the-badge"/>
-</p>
-
-### MLOps & Monitoring
-
-<p>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prefect-070E10?style=for-the-badge&logo=prefect&logoColor=white"/>
-<img src="https://img.shields.io/badge/Evidently%20AI-4F46E5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-</p>
-
-### Backend, Data & Cloud
-
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,docker,postgres,mysql,aws,git,github,linux" />
-</p>
-
-</div>
+👉 **[View repository](https://github.com/mohvijayjain/Sentinel-AI)**
 
 ---
 
-# 📈 Contribution Graph
+## 📚 More Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohvijayjain&theme=one-dark&hide_border=true&area=true"/>
+### ScholarRAG
+Grounded Q&A over research papers. Parses PDFs section by section, answers with page-level citations, and refuses when the evidence isn't there.
 
-</div>
+**0.85** faithfulness · **1.0** context recall (RAGAS)
 
----
+<sub>LangChain · ChromaDB · BGE · NVIDIA NIM · FastAPI</sub>
 
-# 🐍 Contribution Snake
+👉 **[View repository](https://github.com/mohvijayjain/ScholarRAG)**
 
-<div align="center">
+</td>
+<td width="50%" valign="top">
 
-<picture>
+### GeoSight
+Land cover classification and road network analysis across 5 Indian states from satellite imagery, with zero manual labeling.
 
-<source
-media="(prefers-color-scheme: dark)"
-srcset="https://raw.githubusercontent.com/mohvijayjain/mohvijayjain/output/github-contribution-grid-snake-dark.svg">
+**97.79%** pixel accuracy · **0.9154** mIoU · **66K+** tiles
 
-<source
-media="(prefers-color-scheme: light)"
-srcset="https://raw.githubusercontent.com/mohvijayjain/mohvijayjain/output/github-contribution-grid-snake.svg">
+<sub>Python · Remote sensing · Graph theory</sub>
 
-<img
-alt="GitHub Contribution Snake"
-src="https://raw.githubusercontent.com/mohvijayjain/mohvijayjain/output/github-contribution-grid-snake-dark.svg">
+👉 **[View repository](https://github.com/mohvijayjain/GeoSight)**
 
-</picture>
-
-</div>
-
----
-
-# 🏆 Achievements
-
-* ☁️ **AWS Certified Cloud Practitioner**
-* 🚀 **Perplexity AI Campus Ambassador**, Bennett University
-* 💡 **Smart India Hackathon**, Inter-College Round: Rank 61/561 with NetraX
+</td>
+</tr>
+</table>
 
 ---
 
-# 🤝 Let's Connect
+## 🧰 Toolkit
 
-<div align="center">
+| | |
+|:---|:---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,cpp,c&perline=8" height="32"/> |
+| **GenAI / LLM** | `RAG` `LangChain` `ChromaDB` `NVIDIA NIM` `RAGAS` `Prompt Engineering` |
+| **ML** | `Scikit-learn` `LightGBM` `Optuna` `SHAP` `Pandas` `NumPy` |
+| **MLOps** | `MLflow` `Prefect` `Evidently AI` `Prometheus` `Grafana` |
+| **Backend & Cloud** | <img src="https://skillicons.dev/icons?i=fastapi,docker,postgres,mysql,aws,git,linux&perline=8" height="32"/> |
 
-<a href="mailto:mohvijayjain12@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+---
 
-<a href="https://github.com/mohvijayjain">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+## 🏆 Highlights
 
-<a href="https://www.linkedin.com/in/mohvijayjn/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
+- ☁️ **AWS Certified Cloud Practitioner**
+- 🚀 **Perplexity AI Campus Ambassador** at Bennett University
+- 💡 **Smart India Hackathon** Inter-College Round: Rank **61 / 561**
 
 ---
 
 <div align="center">
 
-### 💜 *"Building AI systems that explain themselves, one commit at a time."*
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohvijayjain&bg_color=0D1117&color=38BDF8&line=1E3A8A&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true"/>
 
-</div>
+<br/>
 
-<div align="center">
+**Building something with LLMs or MLOps? Let's talk.**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,30:6D28D9,60:7C3AED,100:9333EA&height=120&section=footer"/>
+<a href="mailto:mohvijayjain12@gmail.com"><img src="https://img.shields.io/badge/Say%20hi-mohvijayjain12%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E3A8A,100:0F172A&height=110&section=footer"/>
 
 </div>
