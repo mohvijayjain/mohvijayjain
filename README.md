@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,50:1E3A8A,100:0EA5E9&text=Mohvijay%20Jain&fontColor=ffffff&fontSize=52&fontAlignY=36&animation=fadeIn&desc=I%20build%20AI%20systems%20that%20monitor%2C%20explain%2C%20and%20fix%20themselves&descSize=17&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,50:1E3A8A,100:0EA5E9&text=Mohvijay%20Jain&fontColor=ffffff&fontSize=52&fontAlignY=36&animation=fadeIn&desc=AI%20%26%20ML%20Engineer%20%7C%20Building%20Scalable%2C%20Production-Ready%20AI%20Systems&descSize=17&descAlignY=58"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=RAG+systems+with+0.85+faithfulness;Self-healing+ML+pipelines;LLM+apps+grounded+in+real+data;Shipping+end-to-end%2C+not+just+notebooks"/>
 
